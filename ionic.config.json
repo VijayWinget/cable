@@ -1,0 +1,7 @@
+{
+  "name": "cable",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
