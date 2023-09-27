@@ -40,17 +40,20 @@ const Login: React.FC = () => {
         "password": password
     }
 
-    const api = axios.create({
-        baseURL: `https://reqres.in/api`
-    })
-    api.post("/login", loginData)
-        .then(res => {             
-            history.push("/dashboard/" + email);
-         })
-         .catch(error=>{
-            setMessage("Auth failure! Please create an account");
-            setIserror(true)
-         })
+    history.push('/home')
+
+    // const api = axios.create({
+    //     baseURL: `https://reqres.in/api`
+    // })
+
+    // api.post("/login", loginData)
+    //     .then(res => {             
+    //         history.push("/dashboard/" + email);
+    //      })
+    //      .catch(error=>{
+    //         setMessage("Auth failure! Please create an account");
+    //         setIserror(true)
+    //      })
   };
 
   return (
