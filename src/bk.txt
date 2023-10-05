@@ -1,0 +1,36 @@
+ // if (!email) {
+    //     setMessage("Please enter a valid email");
+    //     setIserror(true);
+    //     return;
+    // }
+    // if (validateEmail(email) === false) {
+    //     setMessage("Your email is invalid");
+    //     setIserror(true);
+    //     return;
+    // }
+
+    // if (!password || password.length < 6) {
+    //     setMessage("Please enter your password");
+    //     setIserror(true);
+    //     return;
+    // }
+
+    // const loginData = {
+    //     "email": email,
+    //     "password": password
+    // }
+
+    
+    //  history.push('/home')
+    // const api = axios.create({
+    //     baseURL: `https://reqres.in/api`
+    // })
+
+    // api.post("/login", loginData)
+    //     .then(res => {             
+    //         history.push("/dashboard/" + email);
+    //      })
+    //      .catch(error=>{
+    //         setMessage("Auth failure! Please create an account");
+    //         setIserror(true)
+    //      })

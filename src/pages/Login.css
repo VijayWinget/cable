@@ -1,0 +1,14 @@
+.custom-background {
+    background: rgb(124,197,250);
+    background: linear-gradient(90deg, rgba(124,197,250,1) 0%, rgba(255,255,255,1) 100%);
+  }
+
+.custom-background-image {
+    background-image: url('');
+    background-size: cover; /* Adjust this based on your image and layout preferences */
+    background-position: center center; /* Center the image both horizontally and vertically */
+    background-repeat: no-repeat;
+    height: 100%; /* Set a height so the background covers the entire page */
+    /* You can add more styles as needed */
+  }
+  
